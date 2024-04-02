@@ -3,7 +3,7 @@ from _thread import *
 import sys
 
 
-server="192.168.1.7"
+server="172.26.224.1"
 port=5555
 arr=[(0,0),(100,100)]
 usernumber=0
@@ -31,6 +31,7 @@ def convertstot(string):
     return (int(list[0]),int(list[1]))
 
 def threaded_client(conn,num):
+    global usernumber
     conn.send(str.encode(convertttos(arr[num])))
     reply=""
     while True:

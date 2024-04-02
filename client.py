@@ -96,5 +96,31 @@ main()
 
 
 
+#features to implement in the socket programming game
+'''
+1.person class having the features of a person 
+    features:
+        move left 
+        move right
+        jump 
+        crouch 
+        images for all these actions
+
+2.person can shoot which is also a class:
+    features:
+        velocity
+        size
+        starting point
+        ending point
+3.Person can deploy shield:
+    features:
+
+
+
+
+
+'''
+
+
 
 
