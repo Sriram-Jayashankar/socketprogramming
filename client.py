@@ -112,8 +112,10 @@ main()
         size
         starting point
         ending point
-3.Person can deploy shield:
+3.Person can perform MEELE ATTACK:
     features:
+        start point
+        
 
 
 
